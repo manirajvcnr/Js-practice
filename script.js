@@ -102,7 +102,7 @@ function great(a,b){
     }
 }
 let g=great(8,4);
-console.log(g);
+console.log('the great no is '+g);
 
 // if elseif else
 function bigger(n1,n2,n3){
@@ -119,10 +119,24 @@ function bigger(n1,n2,n3){
 let n=bigger(18,39,6);
 console.log('The bigger no is '+n)
 
-// swap numbers
-let s1,s2,temp;
-function swap(s1,s2,temp){
-    s1=s2;
-    s2=temp;
-    temp=s1;
+// area of circle
+let b=3.14,r=prompt('enter the r value'),value;
+function areaofcircle(){
+    return value=b*(r**2);
 }
+console.log('The area of circle is '+areaofcircle());
+
+// area of triangle
+let base=parseInt(prompt('enter the base value')),height=parseInt(prompt('enter the height value')),areatriangle;
+function areaoftriangle(){
+   return areatriangle=0.5*base*height;
+}
+console.log('The area of triangle is '+areaoftriangle());
+
+// simple interest
+let P=parseInt(prompt('enter the Principle')),R=parseInt(prompt('enter the Rate of interest')),T=parseInt(prompt('enter the time')),SI;
+function simpleinterest(){
+    return SI=P*R*T/100;
+}
+console.log('The simple interest value is '+simpleinterest());
+
