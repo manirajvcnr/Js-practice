@@ -1,19 +1,15 @@
 //pop
-let attentance=['a','b','c']; 
-console.log(attentance);
+// removes the last element of an array and returns the removed element
 
-// add one value
-attentance.push('d');
-console.log(attentance);
+let plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 
-// pop
-attentance.pop();  
-console.log(attentance); 
+console.log(plants.pop());
+//"tomato"
 
-// it mention the remove element
-console.log(attentance.pop());
-console.log(attentance);
+console.log(plants);
+//["broccoli", "cauliflower", "cabbage", "kale"]
 
-let newarray=attentance; 
- //display new array length
-console.log('The array length is '+newarray);
+plants.pop();
+
+console.log(plants);
+//["broccoli", "cauliflower", "cabbage"]

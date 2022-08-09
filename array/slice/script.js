@@ -6,19 +6,28 @@
 const animals = ['bear', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
-// expected output: Array ["camel", "duck", "elephant"]
+//animals= ["camel", "duck", "elephant"]
 
 console.log(animals.slice(2, 4));
-// expected output: Array ["camel", "duck"]
+//animals= ["camel", "duck"]
+
+console.log(animals.slice(2, 3));
+//animals= ["camel"]
 
 console.log(animals.slice(1, 5));
-// expected output: Array ["bison", "camel", "duck", "elephant"]
+//animals= ["bison", "camel", "duck", "elephant"]
 
 console.log(animals.slice(-2));
-// expected output: Array ["duck", "elephant"]
+//animals= ["duck", "elephant"]
 
 console.log(animals.slice(2, -1));
-// expected output: Array ["camel", "duck"]
+//animals= ["camel", "duck"]
+
+console.log(animals.slice(2, 0));
+//animals= [] length 0
+
+console.log(animals.slice(2, 2));
+//animals= [] length 0
 
 console.log(animals.slice());
-// expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+//animals= ["ant", "bison", "camel", "duck", "elephant"]
