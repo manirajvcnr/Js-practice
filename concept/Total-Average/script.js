@@ -1,5 +1,6 @@
 // total,Average
 let m1=parseInt(prompt('Enter m1')),m2=parseInt(prompt('Enter m2')),m3=parseInt(prompt('Enter m3')),m4=parseInt(prompt('Enter m4')),m5=parseInt(prompt('Enter m5')),val,avg;
+
 function total(m1,m2,m3,m4,m5){
     return val=m1+m2+m3+m4+m5;
 }
