@@ -54,6 +54,11 @@ console.log(gms.getMilliseconds());
 const gday= new Date();
 console.log(gday.getDay());
 
+// getTimezoneOffset() returns the difference between UTC time and local time.
+// getTimezoneOffset() returns the difference in minutes.
+let gtzo=new Date();
+console.log(gtzo.getTimezoneOffset());
+
 // 3)set methods
 // setFullYear() method sets the year of a date object. In this example to 2020
 const sfy= new Date();
@@ -87,7 +92,7 @@ console.log(ss);
 
 // 4)convert
 // toDateString()
-let tds=new Date('August 26, 2022');
+let tds=new Date();
 console.log(tds.toDateString());
 
 // toISOString()
